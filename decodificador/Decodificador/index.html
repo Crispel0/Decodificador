@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="style.css" rel="stylesheet">
+    <title>Incriptador</title>
+</head>
+<body>
+    <h1>encriptar o desencriptar un mensaje</h1>
+    <div class="card" id="input" style="width: 18rem;">
+        <div class="card-body">
+            <label class="card-title" for="message">escribe tu mensaje
+                <input id="message">
+                <br>
+            </label>
+            <button onclick="encrypt()">encriptar</button> <button onclick="decrypt()">desencriptar</button>
+        </div>
+    </div>
+    <div class="card"  hidden id="divResult">
+        <h4 id="titleCardResult"></h4>
+        <div id="showresult">
+            <label for="textResult">
+                <textarea id="textResult"></textarea> <br>
+                <button id="copy" onclick="copyText()">copiar</button>
+            </label>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div id="links">
+                <a href="https://github.com/Crispel0"  target="_blank" rel="noreferrer noopener"
+                >
+            </div>
+           <p id="author">© 2022 Cristian Penagos </p>
+        </div>
+    </footer>
+    <script src="js/Encriptar.js"></script>
+</body>
+</html>
