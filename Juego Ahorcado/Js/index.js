@@ -24,7 +24,7 @@ var btnEnviarP = document.querySelector("#enviar");
 var btnCancelar = document.querySelector("#cancelar");
 var resultado = false;
 
-var palabras = ["BAILAR","SALTAR","GRITAR", "LLEISON", "DIBUJAR", "CANTAR"];
+var palabras = ["CORPEZ"];
 
 pincel2.font ="bold 32px Arial";
 pincel3.font ="bold 24px Arial";
